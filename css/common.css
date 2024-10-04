@@ -138,3 +138,13 @@
   background: transparent;
   z-index: 2;
 }
+
+.table-responsive table {
+  width: max-content;
+}
+@media screen and (min-width: 1000px) {
+  .table-responsive {
+    display: flex;
+    justify-content: center;
+  }
+}

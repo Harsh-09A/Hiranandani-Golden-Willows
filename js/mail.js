@@ -1,6 +1,7 @@
 (function () {
   emailjs.init({
-    publicKey: "BnRoAjGd5ec2E2VQn",
+    publicKey: "to9PlFrMMimgruuH0", // DIGIN
+    // publicKey: "BwX8mmKlFidsWvP67", // HARSH
   });
 })();
 
@@ -32,8 +33,9 @@ const handleFormSubmit = async (
     privacy_check: document.getElementById(privacyField).value,
     ip_address: await getIpAddress(),
     website_url: window.location.href,
-    to_email: "harsh.autowebbed@gmail.com",
-    company_name: "{Project Name}",
+    // to_email: "harsh.autowebbed@gmail.com",
+    to_email: "samson.h.pinto@gmail.com",
+    company_name: "Hiranandani Golden Willows",
   };
 
   // Send Form
